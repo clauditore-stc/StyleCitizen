@@ -14,9 +14,29 @@
 
   <main>   <!-- se "abre" el cuerpo -->
 
-    <section id="maniqui">  <!-- nombre del maniqui, como el maniqui = int() te python -->
-      <h2>Maniquí</h2>     <!-- texto que aparecerá en la pagina, el h2 se refiere al tamaño -->
-    </section>
+<section id="maniqui">
+  <svg id="svg-maniqui" width="220" height="460">
+    
+    <!-- Cabeza -->
+    <ellipse cx="110" cy="45" rx="30" ry="35" fill="#1e3248"/>
+    
+    <!-- Torso -->
+    <rect x="60" y="90" width="100" height="120" rx="10" fill="#1e3248"/>
+    
+    <!-- Brazo izquierdo -->
+    <rect x="30" y="95" width="25" height="100" rx="8" fill="#1e3248"/>
+    
+    <!-- Brazo derecho -->
+    <rect x="165" y="95" width="25" height="100" rx="8" fill="#1e3248"/>
+    
+    <!-- Pierna izquierda -->
+    <rect x="65" y="215" width="38" height="130" rx="8" fill="#1e3248"/>
+    
+    <!-- Pierna derecha -->
+    <rect x="117" y="215" width="38" height="130" rx="8" fill="#1e3248"/>
+
+  </svg>
+</section>
 
     <section id="catalogo">
       <h2>Catálogo</h2>
