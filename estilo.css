@@ -18,9 +18,11 @@ main {
 }
 
 #maniqui {
+  display: flex;            /* activar modo flex, para juntar el contenido todo en uno creo */
+  justify-content: center;       /* con esto se centra el svg horizontalmente, estaba muy a la izquierda */
   flex: 1;
   padding: 20px;
-  text-align: center;
+  text-align: center;          /* creo que esto ahora mismo no hace falta, pero como no estoy seguro, voy a dejar */
 }
 
 #catalogo {
