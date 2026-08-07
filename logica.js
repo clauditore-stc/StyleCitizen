@@ -20,7 +20,7 @@ let torso = [
 
 document.getElementById("btn-torso").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
-    for (let torso of torso) {
+    for (let torso of torsos) {
         document.getElementById("lista-piezas").innerHTML += `<img src="${torso.imagen}"/> <p>${torso.nombre}</p>`
     }
 })
@@ -33,7 +33,7 @@ let brazos = [
 
 document.getElementById("btn-brazos").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
-    for (let brazos of brazos) {
+    for (let brazo of brazos) {
         document.getElementById("lista-piezas").innerHTML += `<img src="${brazos.imagen}"/> <p>${brazos.nombre}</p>`
     }
 })
@@ -46,7 +46,7 @@ let piernas = [
 
 document.getElementById("btn-piernas").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
-    for (let piernas of piernas) {
+    for (let pierna of piernas) {
         document.getElementById("lista-piezas").innerHTML += `<img src="${piernas.imagen}"/> <p>${piernas.nombre}</p>`
     }
 })
