@@ -13,7 +13,7 @@ document.getElementById("btn-casco").addEventListener("click", function() {
 })
 
 
-let torso = [
+let torsos = [
     { nombre: "Arden-SL", imagen: "img/torso/arden-sl.png" },
     { nombre: "Novikov", imagen: "img/torso/novikov.png" }
 ]
@@ -34,7 +34,7 @@ let brazos = [
 document.getElementById("btn-brazos").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let brazo of brazos) {
-        document.getElementById("lista-piezas").innerHTML += `<img src="${brazos.imagen}"/> <p>${brazos.nombre}</p>`
+        document.getElementById("lista-piezas").innerHTML += `<img src="${brazo.imagen}"/> <p>${brazo.nombre}</p>`
     }
 })
 
@@ -47,6 +47,6 @@ let piernas = [
 document.getElementById("btn-piernas").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let pierna of piernas) {
-        document.getElementById("lista-piezas").innerHTML += `<img src="${piernas.imagen}"/> <p>${piernas.nombre}</p>`
+        document.getElementById("lista-piezas").innerHTML += `<img src="${pierna.imagen}"/> <p>${pierna.nombre}</p>`
     }
 })
