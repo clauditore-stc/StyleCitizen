@@ -31,3 +31,9 @@ main {
   padding: 20px;
   border-left: 1px solid #1e3248;
 }
+
+#lista-piezas img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
