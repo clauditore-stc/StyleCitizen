@@ -1,8 +1,8 @@
 // logica de StyleCitizen
 
 let cascos = [
-    { nombre: "Arden-SL", imagen: "img/cascos/arden-sl.jpg" },
-    { nombre: "Novikov", imagen: "img/cascos/novikov.jpg" }
+    { nombre: "Arden-SL", imagen: "img/cascos/casco-arden-sl.jpg" },
+    { nombre: "Novikov", imagen: "img/cascos/casco-novikov.jpg" }
 ]
 document.getElementById("btn-casco").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
@@ -11,8 +11,8 @@ document.getElementById("btn-casco").addEventListener("click", function() {
     }
 })
 let torsos = [
-    { nombre: "Arden-SL", imagen: "img/torso/arden-sl.jpg" },
-    { nombre: "Novikov", imagen: "img/torso/novikov.jpg" }
+    { nombre: "Arden-SL", imagen: "img/torso/torso-arden-sl.jpg" },
+    { nombre: "Novikov", imagen: "img/torso/torso-novikov.jpg" }
 ]
 document.getElementById("btn-torso").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
@@ -21,8 +21,8 @@ document.getElementById("btn-torso").addEventListener("click", function() {
     }
 })
 let brazos = [
-    { nombre: "Arden-SL", imagen: "img/brazos/arden-sl.jpg" },
-    { nombre: "Novikov", imagen: "img/brazos/novikov.jpg" }
+    { nombre: "Arden-SL", imagen: "img/brazos/brazos-arden-sl.jpg" },
+    { nombre: "Novikov", imagen: "img/brazos/brazos-novikov.jpg" }
 ]
 document.getElementById("btn-brazos").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
@@ -31,8 +31,8 @@ document.getElementById("btn-brazos").addEventListener("click", function() {
     }
 })
 let piernas = [
-    { nombre: "Arden-SL", imagen: "img/piernas/arden-sl.jpg" },
-    { nombre: "Novikov", imagen: "img/piernas/novikov.jpg" }
+    { nombre: "Arden-SL", imagen: "img/piernas/piernas-arden-sl.jpg" },
+    { nombre: "Novikov", imagen: "img/piernas/piernas-novikov.jpg" }
 ]
 document.getElementById("btn-piernas").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
