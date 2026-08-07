@@ -4,7 +4,6 @@ let cascos = [
     { nombre: "Arden-SL", imagen: "img/cascos/arden-sl.png" },
     { nombre: "Novikov", imagen: "img/cascos/novikov.png" }
 ]
-
 document.getElementById("btn-casco").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let casco of cascos) {
@@ -12,12 +11,10 @@ document.getElementById("btn-casco").addEventListener("click", function() {
     }
 })
 
-
 let torsos = [
     { nombre: "Arden-SL", imagen: "img/torso/arden-sl.png" },
     { nombre: "Novikov", imagen: "img/torso/novikov.png" }
 ]
-
 document.getElementById("btn-torso").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let torso of torsos) {
@@ -25,12 +22,10 @@ document.getElementById("btn-torso").addEventListener("click", function() {
     }
 })
 
-
 let brazos = [
     { nombre: "Arden-SL", imagen: "img/brazos/arden-sl.png" },
     { nombre: "Novikov", imagen: "img/brazos/novikov.png" }
 ]
-
 document.getElementById("btn-brazos").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let brazo of brazos) {
@@ -38,12 +33,10 @@ document.getElementById("btn-brazos").addEventListener("click", function() {
     }
 })
 
-
 let piernas = [
     { nombre: "Arden-SL", imagen: "img/piernas/arden-sl.png" },
     { nombre: "Novikov", imagen: "img/piernas/novikov.png" }
 ]
-
 document.getElementById("btn-piernas").addEventListener("click", function() {
     document.getElementById("lista-piezas").innerHTML = ""
     for (let pierna of piernas) {
